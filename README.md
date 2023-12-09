@@ -2,7 +2,7 @@
 
 ## Overview
 
-This report presents a comprehensive analysis of air traffic data, with the specific objective of determining the best investment opportunity among three major airlines: Delta, American Airlines, and Southwest. The analysis focuses on various aspects such as flight volumes, delays, cancellations, and overall airline performance. It is divided into two parts: the first part involves querying a MySQL database to extract insights, while the second part (temporarily not covered here) will utilize Tableau for advanced visualizations and further analysis.
+This comprehensive report aims to identify the best investment opportunity among Delta, American Airlines, and Southwest based on a detailed analysis of air traffic data. The report is structured into two key sections: the SQL analysis of raw data and the Tableau visualization-driven exploration. We investigate various metrics, including flight volumes, delays, cancellations, and airline performance. The Tableau section offers a visual understanding of the data, highlighting trends and patterns that support the investment decision-making process.
 
 ## Part 1: Analysis with MySQL
 
@@ -152,3 +152,93 @@ Based on the comprehensive analysis of the air traffic data using MySQL, several
 5. **Airport Popularity**: Hartsfield-Jackson Atlanta International Airport emerged as the most popular destination, which could be attributed to its status as a major connecting hub.
 
 In conclusion, the MySQL analysis provides valuable insights into the operational aspects of the airline industry. Each airline exhibits unique strengths: Southwest Airlines with its high flight volume, American Airlines with its efficient operations, and Delta Air Lines with a balance of flights and miles traveled. For investment purposes, considering these factors along with external market conditions and future growth potential is crucial. This analysis lays the groundwork for further exploration and decision-making, potentially augmented by the upcoming Tableau visualizations and analysis.
+
+## Part 2: Visualization and Analysis with Tableau
+
+### Total Flights Between 2018 and 2019 Per Airline
+
+![Total Flights Between 2018 and 2019 Per Airline](tableau_visualizations/total_flights_between_2018_and_2019_per_airline.png)
+
+In the last two years, Southwest Airlines has had the highest number of flights, surpassing Delta by almost 700k flights, and American Airlines by nearly 800k flights. This significant lead underscores Southwest's strong market presence.
+
+### Monthly Number of Flights For Each Carrier
+
+![Monthly Number of Flights For Each Carrier](tableau_visualizations/monthly_number_of_flights_for_each_carrier.png)
+
+The carriers display similar trends with seasonal fluctuations. Notably, Southwest shows a marked increase in flights during the holiday season from October 2018 through January 2019 compared to its competitors. This could reflect strategic differences in route selections, pricing, and overall brand popularity during peak travel times.
+
+### Airport Utilization
+
+![Airport Utilization](tableau_visualizations/airport_utilization.png)
+
+Examining the top 10 origin airports, we see that certain airlines dominate specific hubs. American Airlines has a strong presence in Dallas/Fort Worth and Charlotte Douglas, Delta leads at Hartsfield-Jackson and Minneapolis, while Southwest commands the majority at other key airports. This suggests that dominant airlines may influence the operational throughput of these airports.
+
+### 2019 Number of On-Time & Delayed Departures
+
+![2019 Number of On-Time & Delayed Departures](tableau_visualizations/2019_number_of_on-time_and_delayed_departures.png)
+
+June 2019 experienced the highest number of delays, possibly due to summer travel congestion, while September saw the fewest delays, indicating better operational efficiency or lower traffic volumes.
+
+### Average Departure Delay for Each State By Quarter
+
+![Average Departure Delay for Each State By Quarter](tableau_visualizations/average_departure_delay_for_each_state_by_quarter.png)
+
+The data highlights specific periods and states with unusual delay patterns, often correlating with severe weather events. Notable spikes in delays for North Dakota and South Dakota coincide with harsh weather conditions, affecting timely departures.
+
+### Total Average Departure Delay by State
+
+![Total Average Departure Delay by State](tableau_visualizations/total_average_departure_delay_by_state.png)
+
+States with more extreme and variable climates tend to have higher delays. The visualization indicates that airlines operating in these states need to factor in these regional variations as part of their operational planning and customer service strategies.
+
+### Flight Cancellation Reasons by Month
+
+![Flight Cancellation Reasons by Month](tableau_visualizations/flight_cancellation_reasons_by_month.png)
+
+The analysis of cancellation reasons by month uncovers the impact of seasonal weather events on operations. The unusual spike in carrier cancellations in the first half of 2019 is attributed to the grounding of the Boeing 737 Max 8 fleet and labor disputes.
+
+### Flight Time vs Distance
+
+![Flight Time vs Distance](tableau_visualizations/flight_time_vs_distance.png)
+
+This visualization shows the expected correlation between flight time and distance. However, deviations from this trend, such as the data point for JFK Airport, indicate the influence of factors like air traffic congestion on flight times.
+
+### YOY Total Distance Flown and Planes in Service
+
+![YOY Total Distance Flown and Planes in Service](tableau_visualizations/year_over_year_distance_flown_and_planes_in_service.png)
+
+Delta's aggressive increase in both distance flown and planes in service suggests a strategic expansion to capture market share, especially in the context of the Boeing 737 Max groundings.
+
+### Total Planes Per Airline
+
+![Total Planes Per Airline](tableau_visualizations/total_planes_per_airline.png)
+
+American Airlines has the largest fleet, but Delta's recent growth in fleet size is notable. Southwest, while having the fewest planes, maintains a strong operational presence.
+
+### Average Distance By Planes
+
+![Average Distance By Planes](tableau_visualizations/average_distance_by_planes.png)
+
+Southwest's fleet flies the longest average distance, potentially indicating efficient use of their aircraft. However, factors such as flight turnover rates and route profitability are also crucial in evaluating operational efficiency.
+
+## Conclusion of Tableau Visualization Analysis
+
+The visualizations created in Tableau have provided us with a rich narrative of the operational characteristics and strategic positioning of Delta, American Airlines, and Southwest. Through the lens of our visual analysis, we've gained insights into each airline's market dominance, responsiveness to seasonal fluctuations, and the effectiveness of their operational hubs.
+
+Southwest Airlines' significant lead in flight volume suggests a robust network that potentially offers more routing options and greater flexibility for passengers. However, the seasonal trends indicate that all airlines face similar operational stresses, such as the February dip and the end-of-year uptick in flight numbers, underscoring the industry's susceptibility to seasonal passenger behaviors.
+
+Airport utilization patterns reveal a strategic stronghold for certain airlines at specific hubs, which could signify competitive advantages or potential over-reliance on certain markets. Furthermore, the disproportionate influence of Delta in Atlanta and Southwest in other key airports highlights the impact of operational choices on an airline's ability to command market share.
+
+The analysis of on-time and delayed departures points to June and September as months of interest for operational efficiency, with potential implications for staffing, resource allocation, and passenger service strategies.
+
+The state-by-state departure delay data, particularly for North and South Dakota, aligns with known weather events, emphasizing the need for airlines to maintain flexibility and resilience in their operations to mitigate the impact of such events.
+
+Carrier cancellations, especially the spike in early 2019, highlight the industry's vulnerability to regulatory actions and internal disputes, reinforcing the importance of strategic foresight in fleet management and labor relations.
+
+The flight time versus distance visualization affirms the influence of high air traffic on flight times, an operational reality that airlines must navigate to maintain schedules and customer satisfaction.
+
+Delta's year-over-year growth in both fleet size and distance flown reflects an aggressive market expansion strategy, which, during the Boeing 737 Max groundings, allowed them to capitalize on opportunities presented by the misfortunes of competitors.
+
+Finally, the average distance flown per plane visualization and the cancellation reasons by month point to Southwest's operational efficiency and the entire industry's need to address cancellations proactively, with weather and carrier issues being predominant factors.
+
+In conclusion, while Southwest shows strong operational presence and efficiency, Delta's expansion strategy and market capture during competitors' downtimes present a strong case for investment. American Airlines, despite having the largest fleet, shows moderate operational growth, indicating potential for increased profitability if leveraged correctly. The insights from these visualizations are invaluable for potential investors, providing a data-driven foundation for decision-making.
