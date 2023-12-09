@@ -242,3 +242,21 @@ Delta's year-over-year growth in both fleet size and distance flown reflects an 
 Finally, the average distance flown per plane visualization and the cancellation reasons by month point to Southwest's operational efficiency and the entire industry's need to address cancellations proactively, with weather and carrier issues being predominant factors.
 
 In conclusion, while Southwest shows strong operational presence and efficiency, Delta's expansion strategy and market capture during competitors' downtimes present a strong case for investment. American Airlines, despite having the largest fleet, shows moderate operational growth, indicating potential for increased profitability if leveraged correctly. The insights from these visualizations are invaluable for potential investors, providing a data-driven foundation for decision-making.
+
+## Final Conclusion
+
+The combined insights from our SQL data analysis and Tableau visualizations paint a comprehensive picture of the air traffic industry, with particular focus on Delta, American Airlines, and Southwest. The findings from both analytical approaches resonate with each other and reinforce key trends that are pivotal in making an informed investment decision.
+
+Both SQL and Tableau analyses agree on the strong market presence of Southwest Airlines, evidenced by their highest number of flights. However, when considering the year-over-year expansion, Delta's aggressive growth in fleet size and distance flown suggests a strategic maneuvering to capture market share, particularly during a period when competitors faced setbacks due to the Boeing 737 Max groundings.
+
+The context of operational hub dominance is essential in understanding the data, with certain airlines exhibiting strongholds at major airports. This is indicative of their strategic placements and potential market control. Tableau visualizations clearly showed this with the airport utilization patterns, while the SQL analysis provided the hard numbers to back up these visual trends.
+
+Furthermore, both analyses highlight the seasonal impact on airline operations, with periods like June experiencing higher delays and other times like September showing better efficiency. These patterns underscore the need for airlines to adapt their strategies according to seasonal demand and operational pressures.
+
+The robustness of Delta's operations, even during the industry-wide challenges of 2019, suggests a resilient and adaptable business model. Their ability to not only withstand adverse industry events but to thrive during them, as indicated by their projected record-breaking profits for 2019, positions Delta as a strong candidate for investment.
+
+Moreover, the visual and numerical analyses converge on the conclusion that while American Airlines has the largest fleet, it does not necessarily translate to the most efficient use of resources or the highest profitability. Delta and Southwest, on the other hand, demonstrate more effective fleet utilization and operational efficiency.
+
+In light of these findings, Delta emerges as a solid investment recommendation. Their strategic growth, dominant market presence at key operational hubs, and the resilience shown in face of industry headwinds provide a compelling investment narrative. Investors should, however, consider the broader industry context, including the ongoing recovery from global events and technological advancements in aircraft, which may further influence the future trajectory of these airlines.
+
+This report, rooted in data from both SQL and Tableau analyses, offers a holistic view of the airline industry's operational landscape, providing a data-driven basis for investment strategy and decision-making.
